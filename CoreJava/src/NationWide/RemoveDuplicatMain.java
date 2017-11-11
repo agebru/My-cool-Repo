@@ -12,8 +12,12 @@ public class RemoveDuplicatMain {
     String uniq_string=RemoveDuplicates(str);
     String no_dup=RemoveDuplicates("Ethiopia");
     
-    System.out.println("\"Missisippi\" after removing Duplicates:"+uniq_string);
-    System.out.println("\"Ethiopia\" after removing Duplicates:"+no_dup);
+    printString(uniq_string, no_dup);
+	}
+
+	private static void printString(String uniq_string, String no_dup) {
+		System.out.println("\"Missisippi\" after removing Duplicates:"+uniq_string);
+		System.out.println("\"Ethiopia\" after removing Duplicates:"+no_dup);
 	}
 
 	private static String RemoveDuplicates(String str) {
