@@ -9,6 +9,8 @@ public class ExceptionDemo {
 
 	public static void main(String[] args)throws IOException ,IlegalAgeException{
 		
+		System.out.println("======  Exception handling tutorials ===\n");
+		
 		//reading file
 		try {printFileJava7();} catch (IOException ex) {ex.printStackTrace();	}
 		
